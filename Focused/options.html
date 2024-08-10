@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <div class="content is-medium">
+    <div class="field">
+      <label class="label">Blocked websites</label>
+      <p class="help">Enter the URLs of the websites you would like to block, one per line.</p>
+      <div class="control">
+        <textarea class="textarea is-small" id="sites" placeholder="Textarea"></textarea>
+      </div>
+    </div>
+    <div class="field">
+        <label class="label">Blocked features</label>
+        <p class="help">Select specific parts of the website to block, while still having access to the website itself.</p>
+      <div class="control">
+        <label class="checkbox">
+          <input type="checkbox" id="1">
+          Instagram reels
+        </label>
+      </div>
+      <div class="control">
+        <label class="checkbox">
+          <input type="checkbox" id="2">
+          Instagram homepage
+        </label>
+      </div>
+      <div class="control">
+        <label class="checkbox">
+          <input type="checkbox" id="3">
+          Instagram explorepage
+        </label>
+      </div>
+    </div>
+    <div class="field is-grouped">
+      <div class="control">
+        <button class="button is-link is-small" id="save">Save Changes</button>
+      </div>
+    </div>
+  </div>
+  <script src="options.js"></script>
+</body>
+
+</html>

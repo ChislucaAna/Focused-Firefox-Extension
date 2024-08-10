@@ -1,0 +1,27 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2,
+  "name": "Focused",
+  "version": "1.0",
+  "description": "Prevents mindless scrolling by blocking addicting features and websites",
+  "icons": {
+    "48": "icons/extension_icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "instagram.js"
+      ]
+    }
+  ],
+  "options_ui": {
+    "page": "options.html"
+  }
+}
