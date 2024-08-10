@@ -17,7 +17,7 @@
         "*://*/*"
       ],
       "js": [
-        "instagram.js"
+        "instagram.js","blocked.js"
       ]
     }
   ],
