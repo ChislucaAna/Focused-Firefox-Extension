@@ -19,7 +19,6 @@ function load_blocked_features() {
                 const check = document.getElementById(i + 1);
                 check.checked = true;
             }
-        console.log(featuresArray.toString());
 
     }).catch((error) => {
         console.error('Error retrieving features:', error);
