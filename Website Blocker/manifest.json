@@ -2,7 +2,8 @@
   "background": {
     "scripts": [
       "background.js"
-    ]
+    ],
+    "persistent": true
   },
   "manifest_version": 2,
   "name": "Focused",
@@ -18,8 +19,10 @@
       ],
       "js": [
         "blocked.js",
+        "youtube.js",
         "instagram.js"
-      ]
+      ],
+      "run_at": "document_end"
     }
   ],
   "options_ui": {

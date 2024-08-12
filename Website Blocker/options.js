@@ -33,7 +33,7 @@ function save_blocked_websites() {
 
 function save_blocked_features() {
     var values = "";
-    for (var i = 1; i <= 3; i++)
+    for (var i = 1; i <= 5; i++)
         if (document.getElementById((i).toString()).checked == true)
             values += "1";
         else
